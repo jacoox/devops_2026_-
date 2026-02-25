@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url("graffiti.jpg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.header-products {
+    
+        align-items: center;
+        justify-content:space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+span{
+    color: #FF00FF;
+    
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.a{
+    color: white;
+    text-decoration: nome;
+    font-weight: bold;
+    cursor: pointer;
+}
+.links{
+    color: white;
+    text-decoration: nome;
+    font-weight: bold;
+    cursor: pointer;
+}
+.a:hover{
+    color: #FF00FF;
+    transition: .3s;
+}
+button{
+    border: none;
+    background-color: #FF00FF;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+
+
+.html-products{
+    position: relative;
+    height: 100%;
+}
+.html-products{
+    background-color: #323232;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding: 150px 0 50px 0;
+}
+.swiper-slide {
+    width: 100%;
+    height: 500px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.iconos i {
+    font-size: 20px;
+    color: #FF00FF;
+}
+.iconos img {
+    width: 150px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-txt {
+    flex-basis: 50%;
+
+}
+
+.product-txt span {
+    font-size: 25px;
+    color: #FF00FF;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.product-txt p {
+    font-size: 14px;
+    color: #c4c4c4;
+}
+
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.product-img img {
+    width: 200px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid  #c4c4c4;
+    border-radius: 25px;
+    color: #FF00FF;
+    text-decoration: none;
+    margin-top: 50px;
+}
+/* formulario*/
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.form-register {
+    width: 400px;
+    background-color: #3f4142;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    color: white;
+    background: #0a0a0a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #F2F4FF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #605d5e;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+/* Estilos para el área de aprendizaje */
+.learning-area {
+    padding: 50px;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.learning-area h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Estilos para los temas individuales */
+.class-topic {
+    background-color: #343434;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+
+.class-topic h3 {
+    color: #FF00FF;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.class-topic p {
+    color:  #FF00FF;
+    text-align: left;
+}
+
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 28px;
+}
